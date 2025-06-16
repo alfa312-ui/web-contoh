@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+}
+
+.profile {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+h1 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.tagline {
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 25px;
+  width: 80%;
+  max-width: 300px;
+  background: #444;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid #333;
+  box-shadow: 0 4px 6px;
+  rgba(0,0,0,0,3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: #666;
+  color: #fff;
+  box-shadow: 0 6px 8px 
+  rgba(0,0,0,0.5);
+}
+
+.menu {
+  display: block;
+  margin: 15px auto;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.arrow {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+
